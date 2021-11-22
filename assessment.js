@@ -13,10 +13,6 @@ function removeAllChildren(element) {
    while (element.firstChild) { // 子要素がある限り削除
  element.removeChild(element.firstChild);
     }
-    userNameInput.onkeydown = event => {
-    if (event.key === 'Enter') {
-        assessmentButton.onclick();
-    }
 }; 
 
 
